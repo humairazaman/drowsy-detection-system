@@ -1,0 +1,2 @@
+Model Accuracy: 0.9962
+Model Accuracy Percentage: 99.62%
