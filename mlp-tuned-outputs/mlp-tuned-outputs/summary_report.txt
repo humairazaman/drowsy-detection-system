@@ -1,0 +1,38 @@
+
+MLP K-FOLD CROSS-VALIDATION SUMMARY REPORT
+======================================================================
+
+Configuration:
+  - Model Type: MLPClassifier
+  - Hidden Layers: (128, 64, 32)
+  - Number of Folds: 5
+  - Fold Strategy: Stratified K-Fold
+
+Dataset:
+  - Total Samples: 233591
+  - Features: 9
+  - Classes: 3 (Alert, Drowsy, Low Vigilance)
+
+K-FOLD RESULTS:
+  - Mean Accuracy: 0.9821 ± 0.0011
+  - Accuracy Range: [0.9806, 0.9839]
+  - Coefficient of Variation: 0.12%
+
+  - Mean F1 (Weighted): 0.9821 ± 0.0012
+  - Mean F1 (Macro): 0.9821 ± 0.0012
+  - Mean Precision: 0.9821 ± 0.0012
+  - Mean Recall: 0.9821 ± 0.0011
+  - Mean ROC-AUC: 0.9993 ± 0.0001
+
+95% CONFIDENCE INTERVAL:
+  - Accuracy: [0.9807, 0.9835]
+  - Margin of Error: ±0.0014
+
+STABILITY ASSESSMENT:
+  EXCELLENT - Highly stable across folds
+
+CONCLUSION:
+  The MLP model shows stable performance across 5 folds.
+  A low coefficient of variation supports strong generalization.
+
+======================================================================

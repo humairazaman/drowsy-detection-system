@@ -1,0 +1,14 @@
+MLP Neural Network Test Report
+==================================================
+               precision    recall  f1-score   support
+
+        Alert       0.98      0.99      0.98     11714
+       Drowsy       0.98      0.98      0.98     11770
+Low Vigilance       0.98      0.97      0.98     11555
+
+     accuracy                           0.98     35039
+    macro avg       0.98      0.98      0.98     35039
+ weighted avg       0.98      0.98      0.98     35039
+
+Test Accuracy: 0.9802
+Test Accuracy Percentage: 98.02%
